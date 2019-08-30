@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CatGridCell" customModule="DigiCat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="174" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="174" height="152"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iaL-VS-FeW">
+                        <rect key="frame" x="0.0" y="0.0" width="174" height="152"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3zD-sK-ilT" customClass="KRImageView" customModule="DigiCat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="174" height="152"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3zD-sK-ilT" secondAttribute="trailing" id="N1u-lt-9E5"/>
+                            <constraint firstItem="3zD-sK-ilT" firstAttribute="leading" secondItem="iaL-VS-FeW" secondAttribute="leading" id="bSt-KL-1oh"/>
+                            <constraint firstAttribute="bottom" secondItem="3zD-sK-ilT" secondAttribute="bottom" id="pMQ-DA-95t"/>
+                            <constraint firstItem="3zD-sK-ilT" firstAttribute="top" secondItem="iaL-VS-FeW" secondAttribute="top" id="pgr-Jf-i4l"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iaL-VS-FeW" secondAttribute="trailing" id="3Zd-PL-bkV"/>
+                <constraint firstItem="iaL-VS-FeW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3ch-Ru-MhD"/>
+                <constraint firstItem="iaL-VS-FeW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CyB-yo-tYr"/>
+                <constraint firstAttribute="bottom" secondItem="iaL-VS-FeW" secondAttribute="bottom" id="GDZ-cL-qyb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="174" height="206"/>
+            <connections>
+                <outlet property="imageView" destination="3zD-sK-ilT" id="auV-Fm-eiu"/>
+            </connections>
+            <point key="canvasLocation" x="51.200000000000003" y="90.854572713643179"/>
+        </collectionViewCell>
+    </objects>
+</document>
