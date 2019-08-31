@@ -22,7 +22,7 @@ class CatDetailsViewController: UIViewController {
     var catDetails : CatData?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        imageView.layer.cornerRadius = 10
     }
     
     func loadCatDetails() {

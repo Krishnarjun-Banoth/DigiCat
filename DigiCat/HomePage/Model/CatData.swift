@@ -27,8 +27,6 @@ struct Breed: Codable {
     var name: String
     var temperament: String
     var lifeSpan: String
-    var altNames: String
-    var wikipediaUrl: String
     var description: String
     
     enum CodingKeys: String, CodingKey {
@@ -36,8 +34,6 @@ struct Breed: Codable {
         case name = "name"
         case temperament = "temperament"
         case lifeSpan = "life_span"
-        case altNames = "alt_names"
-        case wikipediaUrl = "wikipedia_url"
         case description = "description"
     
     }

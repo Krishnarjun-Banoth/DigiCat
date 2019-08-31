@@ -14,6 +14,8 @@ class Constants {
         static let BASE = "https://api.thecatapi.com/v1"
         static let HomePage = "/images/search"
         static let DetailPage = "/images"
+        static let CATEGORIES = "/categories"
+        static let BREEDS = "/breeds"
     
     }
     

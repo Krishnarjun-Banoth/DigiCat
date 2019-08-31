@@ -21,8 +21,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CatsBrowseOptionsVC" customModule="DigiCat" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="7g4-8l-Apz" id="F7I-VL-8on"/>
+                <outlet property="filterByLabel" destination="3rX-tA-Une" id="BRE-Mg-loc"/>
                 <outlet property="gridViewLabel" destination="KBR-Ci-qyb" id="yrl-Gt-3c7"/>
                 <outlet property="optionsView" destination="twK-oR-RNm" id="ZoW-9X-peW"/>
+                <outlet property="sortyByLabel" destination="2KO-2a-ukA" id="Uai-Qm-tXc"/>
                 <outlet property="tableViewLabel" destination="ER8-MW-o6A" id="u3r-VG-wDR"/>
                 <outlet property="view" destination="iN0-l3-epB" id="adh-BO-YOc"/>
             </connections>
@@ -73,18 +75,39 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sort By" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KO-2a-ukA">
+                            <rect key="frame" x="168.5" y="50" width="50" height="16.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="5ma-D6-Mdh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter By" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rX-tA-Une">
+                            <rect key="frame" x="226.5" y="49.5" width="51.5" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="WSN-z2-LKv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="ER8-MW-o6A" firstAttribute="top" secondItem="2dP-GF-dDP" secondAttribute="bottom" constant="8" id="4FJ-9K-CV6"/>
+                        <constraint firstItem="3rX-tA-Une" firstAttribute="centerY" secondItem="2KO-2a-ukA" secondAttribute="centerY" id="7KV-iy-igy"/>
+                        <constraint firstItem="3rX-tA-Une" firstAttribute="leading" secondItem="2KO-2a-ukA" secondAttribute="trailing" constant="8" id="BT4-h3-EdK"/>
                         <constraint firstAttribute="height" constant="100" id="EhH-xz-8H8"/>
                         <constraint firstItem="KBR-Ci-qyb" firstAttribute="height" secondItem="ER8-MW-o6A" secondAttribute="height" id="OIy-hp-QoZ"/>
                         <constraint firstItem="ER8-MW-o6A" firstAttribute="leading" secondItem="twK-oR-RNm" secondAttribute="leading" constant="16" id="PZQ-ef-OVX"/>
+                        <constraint firstItem="2KO-2a-ukA" firstAttribute="centerY" secondItem="KBR-Ci-qyb" secondAttribute="centerY" id="TkT-dX-Rsb"/>
                         <constraint firstItem="2dP-GF-dDP" firstAttribute="top" secondItem="twK-oR-RNm" secondAttribute="top" constant="16" id="TzX-bm-MVj"/>
+                        <constraint firstItem="2KO-2a-ukA" firstAttribute="leading" secondItem="KBR-Ci-qyb" secondAttribute="trailing" constant="8" id="UpO-cz-noZ"/>
                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2dP-GF-dDP" secondAttribute="trailing" constant="20" symbolic="YES" id="VJg-il-uQF"/>
                         <constraint firstItem="2dP-GF-dDP" firstAttribute="leading" secondItem="twK-oR-RNm" secondAttribute="leading" constant="16" id="dSd-wU-XcH"/>
                         <constraint firstItem="KBR-Ci-qyb" firstAttribute="leading" secondItem="ER8-MW-o6A" secondAttribute="trailing" constant="8" id="k2j-hs-ddJ"/>
-                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KBR-Ci-qyb" secondAttribute="trailing" constant="20" symbolic="YES" id="xx3-3b-Su1"/>
                         <constraint firstItem="KBR-Ci-qyb" firstAttribute="centerY" secondItem="ER8-MW-o6A" secondAttribute="centerY" id="zR4-TC-xBU"/>
                     </constraints>
                 </view>

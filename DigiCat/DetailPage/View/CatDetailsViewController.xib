@@ -23,23 +23,16 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rU2-sX-mj6">
-                    <rect key="frame" x="0.0" y="44" width="414" height="70"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="70" id="yLB-RN-de9"/>
-                    </constraints>
-                </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4U3-vv-Ilf" customClass="KRImageView" customModule="DigiCat" customModuleProvider="target">
-                    <rect key="frame" x="20" y="130" width="374" height="281"/>
+                    <rect key="frame" x="8" y="52" width="398" height="300"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="281" id="NHy-mu-A5a"/>
+                        <constraint firstAttribute="height" constant="300" id="NHy-mu-A5a"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Anr-wS-aL5">
-                    <rect key="frame" x="20" y="419" width="374" height="427"/>
+                    <rect key="frame" x="20" y="360" width="374" height="486"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtA-ka-9sX">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtA-ka-9sX">
                             <rect key="frame" x="0.0" y="8" width="374" height="0.0"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <nil key="textColor"/>
@@ -47,8 +40,8 @@
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drX-ra-IwP">
                             <rect key="frame" x="0.0" y="24" width="374" height="0.0"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.27074380752614369" green="0.58919311436876565" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -65,16 +58,13 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4U3-vv-Ilf" secondAttribute="trailing" constant="20" id="Bh3-tt-fb0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4U3-vv-Ilf" secondAttribute="trailing" constant="8" id="Bh3-tt-fb0"/>
                 <constraint firstItem="Anr-wS-aL5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="M61-gc-aZF"/>
-                <constraint firstItem="rU2-sX-mj6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Ouu-0V-enB"/>
-                <constraint firstItem="rU2-sX-mj6" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Pff-BC-5yM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Anr-wS-aL5" secondAttribute="trailing" constant="20" id="UdN-7h-AcA"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Anr-wS-aL5" secondAttribute="bottom" constant="16" id="V9h-1Q-Yvr"/>
-                <constraint firstItem="4U3-vv-Ilf" firstAttribute="top" secondItem="rU2-sX-mj6" secondAttribute="bottom" constant="16" id="ZKP-o6-yY5"/>
-                <constraint firstItem="rU2-sX-mj6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="e6l-Gr-tOh"/>
+                <constraint firstItem="4U3-vv-Ilf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="Ywt-nO-bXa"/>
                 <constraint firstItem="Anr-wS-aL5" firstAttribute="top" secondItem="4U3-vv-Ilf" secondAttribute="bottom" constant="8" id="hRC-H6-buX"/>
-                <constraint firstItem="4U3-vv-Ilf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="v8I-tb-bEJ"/>
+                <constraint firstItem="4U3-vv-Ilf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="v8I-tb-bEJ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="131.8840579710145" y="124.55357142857142"/>

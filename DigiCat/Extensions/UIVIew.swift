@@ -21,7 +21,7 @@ extension UIView {
     }
     
     // Helper method that adds the conventional curve to the view along with a border.
-    func curveAndAddBorder(radius: CGFloat = 4, borderColor: CGColor = UIColor.white.cgColor, borderWidth: CGFloat = 1) {
+    func curveAndAddBorder(radius: CGFloat = 8, borderColor: CGColor = UIColor.white.cgColor, borderWidth: CGFloat = 1) {
         layer.cornerRadius = radius
         layer.borderWidth = borderWidth
         layer.borderColor = borderColor

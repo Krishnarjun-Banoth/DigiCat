@@ -13,6 +13,7 @@ class CatTableViewCell: UITableViewCell {
     @IBOutlet weak var catImageView: KRImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
+        catImageView.layer.cornerRadius = 8
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

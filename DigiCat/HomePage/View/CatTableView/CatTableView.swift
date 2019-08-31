@@ -19,7 +19,7 @@ class CatTableView: UITableView {
     var offsetValue = 0 {
         didSet {
             if data.count > offsetValue {
-                self.scrollToRow(at: IndexPath(row: offsetValue, section: 0), at: .none, animated: false)
+                self.scrollToRow(at: IndexPath(row: offsetValue, section: 0), at: .top, animated: false)
             }
         }
     }

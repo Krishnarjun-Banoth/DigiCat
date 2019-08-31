@@ -33,6 +33,15 @@
 		5C97A6A92318DD1F00F2CCBF /* CatTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97A6A82318DD1F00F2CCBF /* CatTableView.swift */; };
 		5C97A6AC2318DED400F2CCBF /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97A6AA2318DED400F2CCBF /* CatTableViewCell.swift */; };
 		5C97A6AD2318DED400F2CCBF /* CatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C97A6AB2318DED400F2CCBF /* CatTableViewCell.xib */; };
+		5CA5ED5F231A56BA00E4270F /* SortingTableBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ED5D231A56BA00E4270F /* SortingTableBottomSheet.swift */; };
+		5CA5ED60231A56BA00E4270F /* SortingTableBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA5ED5E231A56BA00E4270F /* SortingTableBottomSheet.xib */; };
+		5CA5ED62231A57F700E4270F /* SortingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ED61231A57F700E4270F /* SortingTableView.swift */; };
+		5CA5ED65231A58E500E4270F /* SortingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ED63231A58E500E4270F /* SortingTableViewCell.swift */; };
+		5CA5ED66231A58E500E4270F /* SortingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA5ED64231A58E500E4270F /* SortingTableViewCell.xib */; };
+		5CA5ED68231A5A4100E4270F /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ED67231A5A4100E4270F /* UIFont.swift */; };
+		5CA5ED6C231A7EC600E4270F /* FilterByBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ED6A231A7EC600E4270F /* FilterByBottomSheet.swift */; };
+		5CA5ED6D231A7EC600E4270F /* FilterByBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA5ED6B231A7EC600E4270F /* FilterByBottomSheet.xib */; };
+		5CA5ED6F231A7F4E00E4270F /* FilteringTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ED6E231A7F4E00E4270F /* FilteringTableView.swift */; };
 		AAC060C4E0BBD706CFECA8AF /* Pods_DigiCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E3EB24D0803B1D7738267 /* Pods_DigiCat.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +74,15 @@
 		5C97A6A82318DD1F00F2CCBF /* CatTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableView.swift; sourceTree = "<group>"; };
 		5C97A6AA2318DED400F2CCBF /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
 		5C97A6AB2318DED400F2CCBF /* CatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatTableViewCell.xib; sourceTree = "<group>"; };
+		5CA5ED5D231A56BA00E4270F /* SortingTableBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTableBottomSheet.swift; sourceTree = "<group>"; };
+		5CA5ED5E231A56BA00E4270F /* SortingTableBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortingTableBottomSheet.xib; sourceTree = "<group>"; };
+		5CA5ED61231A57F700E4270F /* SortingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTableView.swift; sourceTree = "<group>"; };
+		5CA5ED63231A58E500E4270F /* SortingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTableViewCell.swift; sourceTree = "<group>"; };
+		5CA5ED64231A58E500E4270F /* SortingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortingTableViewCell.xib; sourceTree = "<group>"; };
+		5CA5ED67231A5A4100E4270F /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		5CA5ED6A231A7EC600E4270F /* FilterByBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterByBottomSheet.swift; sourceTree = "<group>"; };
+		5CA5ED6B231A7EC600E4270F /* FilterByBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterByBottomSheet.xib; sourceTree = "<group>"; };
+		5CA5ED6E231A7F4E00E4270F /* FilteringTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringTableView.swift; sourceTree = "<group>"; };
 		7C5E3EB24D0803B1D7738267 /* Pods_DigiCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigiCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D9E3F5E6EAF854B0777049 /* Pods-DigiCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiCat.debug.xcconfig"; path = "Target Support Files/Pods-DigiCat/Pods-DigiCat.debug.xcconfig"; sourceTree = "<group>"; };
 		EA35F2E3A10FF40B29BAE999 /* Pods-DigiCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiCat.release.xcconfig"; path = "Target Support Files/Pods-DigiCat/Pods-DigiCat.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +221,8 @@
 		5C810B242313E1E50038A7AD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5CA5ED69231A7DF200E4270F /* FilterCats */,
+				5CA5ED5C231A563400E4270F /* SortableCatListing */,
 				5C6FEC0023154006004F6AD0 /* CatGridView */,
 				5C6FEBFF23153FF8004F6AD0 /* CatTableView */,
 				5C810B262313E2240038A7AD /* Base */,
@@ -233,6 +253,7 @@
 				5C810B302313EC7E0038A7AD /* UIVIew.swift */,
 				5C810B32231400C00038A7AD /* NSObject.swift */,
 				5C6FEC0923154A35004F6AD0 /* UICollectionView.swift */,
+				5CA5ED67231A5A4100E4270F /* UIFont.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -260,6 +281,28 @@
 				5C97A6A52317DBAD00F2CCBF /* CatDetailsViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5CA5ED5C231A563400E4270F /* SortableCatListing */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5ED5D231A56BA00E4270F /* SortingTableBottomSheet.swift */,
+				5CA5ED5E231A56BA00E4270F /* SortingTableBottomSheet.xib */,
+				5CA5ED61231A57F700E4270F /* SortingTableView.swift */,
+				5CA5ED63231A58E500E4270F /* SortingTableViewCell.swift */,
+				5CA5ED64231A58E500E4270F /* SortingTableViewCell.xib */,
+			);
+			path = SortableCatListing;
+			sourceTree = "<group>";
+		};
+		5CA5ED69231A7DF200E4270F /* FilterCats */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5ED6A231A7EC600E4270F /* FilterByBottomSheet.swift */,
+				5CA5ED6B231A7EC600E4270F /* FilterByBottomSheet.xib */,
+				5CA5ED6E231A7F4E00E4270F /* FilteringTableView.swift */,
+			);
+			path = FilterCats;
 			sourceTree = "<group>";
 		};
 		C016498638D4DC7A10437DD2 /* Pods */ = {
@@ -331,12 +374,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA5ED60231A56BA00E4270F /* SortingTableBottomSheet.xib in Resources */,
 				5C97A6A72317DBAD00F2CCBF /* CatDetailsViewController.xib in Resources */,
 				5C810B172313E00D0038A7AD /* LaunchScreen.storyboard in Resources */,
 				5C810B142313E00D0038A7AD /* Assets.xcassets in Resources */,
 				5C810B292313E2510038A7AD /* CatsBrowseOptionsVC.xib in Resources */,
 				5C6FEC0423154126004F6AD0 /* CatGridCell.xib in Resources */,
 				5C97A6AD2318DED400F2CCBF /* CatTableViewCell.xib in Resources */,
+				5CA5ED6D231A7EC600E4270F /* FilterByBottomSheet.xib in Resources */,
+				5CA5ED66231A58E500E4270F /* SortingTableViewCell.xib in Resources */,
 				5C810B0F2313DFFD0038A7AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +439,8 @@
 				5C810B312313EC7E0038A7AD /* UIVIew.swift in Sources */,
 				5C810B33231400C00038A7AD /* NSObject.swift in Sources */,
 				5C810B2C2313E63F0038A7AD /* CatData.swift in Sources */,
+				5CA5ED6C231A7EC600E4270F /* FilterByBottomSheet.swift in Sources */,
+				5CA5ED6F231A7F4E00E4270F /* FilteringTableView.swift in Sources */,
 				5C6FEC06231541FA004F6AD0 /* CatGridCell.swift in Sources */,
 				5C6FEC0A23154A35004F6AD0 /* UICollectionView.swift in Sources */,
 				5C810B2E2313E7640038A7AD /* CatsHomeViewModel.swift in Sources */,
@@ -404,9 +452,13 @@
 				5C97A6A62317DBAD00F2CCBF /* CatDetailsViewController.swift in Sources */,
 				5C97A6A92318DD1F00F2CCBF /* CatTableView.swift in Sources */,
 				5C810B2A2313E2510038A7AD /* CatsBrowseOptionsVC.swift in Sources */,
+				5CA5ED68231A5A4100E4270F /* UIFont.swift in Sources */,
 				5C6FEC1023156A7E004F6AD0 /* Constants.swift in Sources */,
 				5C97A6AC2318DED400F2CCBF /* CatTableViewCell.swift in Sources */,
+				5CA5ED5F231A56BA00E4270F /* SortingTableBottomSheet.swift in Sources */,
 				5C6FEC08231544E0004F6AD0 /* SizeProvider.swift in Sources */,
+				5CA5ED65231A58E500E4270F /* SortingTableViewCell.swift in Sources */,
+				5CA5ED62231A57F700E4270F /* SortingTableView.swift in Sources */,
 				5C97A6A12317D23D00F2CCBF /* CatDetailsViewModel.swift in Sources */,
 				5C810B0A2313DFFD0038A7AD /* AppDelegate.swift in Sources */,
 			);

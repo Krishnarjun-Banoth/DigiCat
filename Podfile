@@ -10,4 +10,5 @@ target 'DigiCat' do
   pod "Alamofire", "~> 4.8"
   pod "AlamofireObjectMapper", "~> 5.2"
   pod "PINRemoteImage", "~> 2.1.4"
+  pod "MaterialComponents", "~> 84"
 end
